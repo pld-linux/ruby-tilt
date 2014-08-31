@@ -1,12 +1,12 @@
 %define		pkgname	tilt
 Summary:	Generic interface to multiple Ruby template engines
 Name:		ruby-%{pkgname}
-Version:	2.0.1
+Version:	1.4.1
 Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/gems/%{pkgname}-%{version}.gem
-# Source0-md5:	99167802f32cf280147627a8b56732cc
+# Source0-md5:	63f659f48d31c50d2565fb8b10554d8f
 URL:		http://github.com/rtomayko/%{pkgname}
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
@@ -71,7 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.md CHANGELOG.md COPYING HACKING docs/*
+%doc README.md CHANGELOG.md COPYING HACKING TEMPLATES.md
 %attr(755,root,root) %{_bindir}/tilt
 %{ruby_vendorlibdir}/tilt
 %{ruby_vendorlibdir}/tilt.rb
