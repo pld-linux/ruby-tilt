@@ -7,7 +7,7 @@ License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/gems/%{pkgname}-%{version}.gem
 # Source0-md5:	63f659f48d31c50d2565fb8b10554d8f
-URL:		http://github.com/rtomayko/%{pkgname}
+URL:		http://github.com/rtomayko/tilt
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
 BuildArch:	noarch
