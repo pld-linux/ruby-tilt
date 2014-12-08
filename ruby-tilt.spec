@@ -2,7 +2,7 @@
 Summary:	Generic interface to multiple Ruby template engines
 Name:		ruby-%{pkgname}
 Version:	1.4.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/gems/%{pkgname}-%{version}.gem
@@ -49,8 +49,8 @@ Dokumentacji w formacie ri dla %{pkgname}.
 
 rdoc --ri --op ri lib
 rdoc --op rdoc lib
-# rm -r ri/NOT_THIS_MODULE_RELATED_DIRS
 rm ri/created.rid
+rm ri/cache.ri
 
 %install
 rm -rf $RPM_BUILD_ROOT
