@@ -2,7 +2,7 @@
 Summary:	Generic interface to multiple Ruby template engines
 Name:		ruby-%{pkgname}
 Version:	1.4.1
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/gems/%{pkgname}-%{version}.gem
